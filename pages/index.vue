@@ -1,5 +1,5 @@
 <template>
-	<main>
+	<main class="container mx-auto p-[16px]">
 		<h1>Hello Nuxt3</h1>
 		<p>my playground 🏔💚⚡️</p>
 	</main>
