@@ -10,7 +10,7 @@ const handleChangeColorScheme = (scheme: 'system' | 'light' | 'dark') => {
 
 <template>
 	<header class="sticky z-9 w-full bg-$document border-b border-$secondary">
-		<div class="container mx-auto p-[16px] flex gap-[20] sm:justify-between">
+		<div class="container mx-auto p-[16px] flex gap-[20px] justify-between">
 			<p>hello-nuxt3</p>
 			<div class="flex gap-[8px]">
 				<button
