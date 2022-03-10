@@ -1,5 +1,5 @@
 <template>
-	<div>
-		<NuxtWelcome />
-	</div>
+	<Html :class="$colorMode.value" />
+
+	<NuxtPage />
 </template>
