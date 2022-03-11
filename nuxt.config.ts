@@ -5,8 +5,17 @@ export default defineNuxtConfig({
 	buildModules: [
 		'@nuxtjs/color-mode',
 		'nuxt-windicss',
+		'@vueuse/nuxt',
 	],
 	css: [
 		'@/assets/sass/main.sass',
 	],
+	vueuse: {
+		ssrHandlers: true,
+	},
+	vite: {
+		optimizeDeps: {
+			include: ['cookie'],
+		},
+	},
 })
